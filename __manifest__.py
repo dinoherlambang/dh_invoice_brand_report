@@ -6,22 +6,26 @@
         Add product_brand in invoice print out""",
 
     'description': """
+        This module enhances invoice reports by adding product brand information to the PDF printouts.
+        Key features include:
+        - Adds a 'Brand' column to invoice report PDFs
+        - Integrates seamlessly with existing Odoo invoice templates
+        - Improves clarity and professionalism in your billing process
+        - Easy to install and configure
+        - Compatible with Odoo 13.0
         
+        This module is designed to provide more detailed and brand-specific information on customer invoices,
+        helping businesses to better showcase their product offerings and improve customer communication.
     """,
 
-    'author': "My Company",
+    'author': "dinoherlambang",
     'website': "http://instagram.com/_dinoherlambang_/",
 
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/13.0/odoo/addons/base/data/ir_module_category_data.xml
-    # for the full list
-    'category': 'tools',
+    'category': 'Accounting',
     'version': '13.0',
 
-    # any module necessary for this one to work correctly
     'depends': ['base','account','product','product_brand'],
 
-    # always loaded
     'data': [
         # 'security/ir.model.access.csv',
         'views/views.xml',
