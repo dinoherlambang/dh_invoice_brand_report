@@ -1,4 +1,4 @@
-# dh_invoice_brand_report
+# Brand invoice_brand_report
 
 ## Overview
 This Odoo module enhances invoice reports by adding product brand information to the PDF printouts. It's designed to provide more detailed and brand-specific information on customer invoices, improving clarity and professionalism in your billing process.
