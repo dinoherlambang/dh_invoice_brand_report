@@ -23,8 +23,13 @@
 
     'category': 'Accounting',
     'version': '13.0',
-
-    'depends': ['base','account','product','product_brand'],
+    # ... other manifest data ...
+    'depends': ['base', 'account', 'product', 'product_brand'],
+    'external_dependencies': {
+        'python': [],
+        'bin': [],
+        'git': ['https://github.com/OCA/brand 13.0'],
+    },
 
     'data': [
         # 'security/ir.model.access.csv',
